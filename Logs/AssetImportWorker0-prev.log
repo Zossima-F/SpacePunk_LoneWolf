@@ -15,7 +15,7 @@ C:/Users/faraz/HelloUnity2.0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65487
+52651
 Successfully changed project path to: C:/Users/faraz/HelloUnity2.0
 C:/Users/faraz/HelloUnity2.0
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/faraz/HelloUnity2.0
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [34624] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1997910555 [EditorId] 1997910555 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0LL53LJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15664] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3586745884 [EditorId] 3586745884 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0LL53LJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [34624] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1997910555 [EditorId] 1997910555 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0LL53LJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15664] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3586745884 [EditorId] 3586745884 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0LL53LJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 10.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010256 seconds.
-- Loaded All Assemblies, in  0.605 seconds
+Registered in 0.011368 seconds.
+- Loaded All Assemblies, in  0.567 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.464 seconds
-Domain Reload Profiling: 1067ms
-	BeginReloadAssembly (229ms)
+- Finished resetting the current domain, in  0.400 seconds
+Domain Reload Profiling: 966ms
+	BeginReloadAssembly (170ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (81ms)
-	LoadAllAssembliesAndSetupDomain (227ms)
-		LoadAssemblies (226ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (167ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (224ms)
-			TypeCache.Refresh (221ms)
-				TypeCache.ScanAssembly (202ms)
+		AnalyzeDomain (225ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (201ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (465ms)
+	FinalizeReload (400ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (373ms)
+		SetupLoadedEditorAssemblies (306ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (244ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (211ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 1067ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.983 seconds
-Refreshing native plugins compatible for Editor in 3.27 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.825 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.778 seconds
-Domain Reload Profiling: 1758ms
-	BeginReloadAssembly (211ms)
+- Finished resetting the current domain, in  0.650 seconds
+Domain Reload Profiling: 1473ms
+	BeginReloadAssembly (192ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (59ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (49ms)
 	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (630ms)
-		LoadAssemblies (499ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (509ms)
+		LoadAssemblies (399ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (259ms)
-			TypeCache.Refresh (227ms)
-				TypeCache.ScanAssembly (207ms)
-			ScanForSourceGeneratedMonoScriptInfo (23ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (778ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (199ms)
+				TypeCache.ScanAssembly (181ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (651ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (567ms)
+		SetupLoadedEditorAssemblies (461ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (432ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (345ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 4.77 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 3.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3069 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3533.
+Unloading 31 unused Assets / (56.8 KB). Loaded Objects now: 3533.
 Memory consumption went from 114.7 MB to 114.6 MB.
-Total: 6.063500 ms (FindLiveObjects: 0.367500 ms CreateObjectMapping: 0.156900 ms MarkObjects: 5.385100 ms  DeleteObjects: 0.152000 ms)
+Total: 3.991700 ms (FindLiveObjects: 0.438500 ms CreateObjectMapping: 0.203500 ms MarkObjects: 3.211900 ms  DeleteObjects: 0.135500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,36 +184,2529 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 618228.367664 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '530d132b2b47a48c38439b1d37257423') in 0.149777 seconds
+  Time since last request: 748230.906530 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(262ad714af3caa34ba39fbc73607e3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(262ad714af3caa34ba39fbc73607e3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78edf1b744e15a073a774adb9514b60') in 0.003086 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.721217 seconds.
+  path: Assets/Script
+  artifactKey: Guid(06727e349061dd741a78977a1548aa69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script using Guid(06727e349061dd741a78977a1548aa69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50b20a91ad9a3465bd63266344a05f2') in 0.000854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.737338 seconds.
+  path: Assets/PhysMaterial
+  artifactKey: Guid(8cdd17ed88e5f454e8ff88abcceb3f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PhysMaterial using Guid(8cdd17ed88e5f454e8ff88abcceb3f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9985f5b7a6c0193590ffb9334d5df257') in 0.002105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.879918 seconds.
+  path: Assets/PhysMaterials
+  artifactKey: Guid(8cdd17ed88e5f454e8ff88abcceb3f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PhysMaterials using Guid(8cdd17ed88e5f454e8ff88abcceb3f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5bd2716988988d81f4f62661c13469') in 0.000759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1726.824021 seconds.
+  path: Assets/Script/Player.cs
+  artifactKey: Guid(e4ab420c436838b4f85f7096ad4ddeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Player.cs using Guid(e4ab420c436838b4f85f7096ad4ddeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab0a7b9e8739f20cc569170f0dd754a') in 0.001167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.594 seconds
+Refreshing native plugins compatible for Editor in 3.22 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 10.226 seconds
+Domain Reload Profiling: 12819ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (2265ms)
+		LoadAssemblies (2353ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (10227ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (391ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3537.
+Memory consumption went from 113.5 MB to 113.5 MB.
+Total: 3.971000 ms (FindLiveObjects: 0.344600 ms CreateObjectMapping: 0.109600 ms MarkObjects: 3.435400 ms  DeleteObjects: 0.079800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.790 seconds
+Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.219 seconds
+Domain Reload Profiling: 2006ms
+	BeginReloadAssembly (254ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (364ms)
+		LoadAssemblies (488ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1219ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (541ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (406ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3540.
+Memory consumption went from 113.8 MB to 113.8 MB.
+Total: 3.888800 ms (FindLiveObjects: 0.416800 ms CreateObjectMapping: 0.112200 ms MarkObjects: 3.288200 ms  DeleteObjects: 0.069500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.552 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.836 seconds
+Domain Reload Profiling: 2388ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (248ms)
+		LoadAssemblies (344ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1837ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (856ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (633ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 6.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3543.
+Memory consumption went from 113.8 MB to 113.8 MB.
+Total: 8.304200 ms (FindLiveObjects: 0.601000 ms CreateObjectMapping: 0.257600 ms MarkObjects: 7.333200 ms  DeleteObjects: 0.109300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.557 seconds
+Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.047 seconds
+Domain Reload Profiling: 1602ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (263ms)
+		LoadAssemblies (345ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1047ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3546.
+Memory consumption went from 113.8 MB to 113.8 MB.
+Total: 3.536500 ms (FindLiveObjects: 0.334600 ms CreateObjectMapping: 0.109400 ms MarkObjects: 3.022900 ms  DeleteObjects: 0.066900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.541 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.503 seconds
+Domain Reload Profiling: 2042ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (337ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1504ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (717ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (544ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 5.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3549.
+Memory consumption went from 113.8 MB to 113.8 MB.
+Total: 6.047000 ms (FindLiveObjects: 0.417300 ms CreateObjectMapping: 0.164400 ms MarkObjects: 5.330500 ms  DeleteObjects: 0.132400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49869.045796 seconds.
+  path: Assets/Script/SpaceshipMovement.cs
+  artifactKey: Guid(e4ab420c436838b4f85f7096ad4ddeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SpaceshipMovement.cs using Guid(e4ab420c436838b4f85f7096ad4ddeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e164ce626c4c0628590f4bc3ce9eb9') in 0.079142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.931 seconds
+Refreshing native plugins compatible for Editor in 3.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 15.465 seconds
+Domain Reload Profiling: 19395ms
+	BeginReloadAssembly (468ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (197ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (3324ms)
+		LoadAssemblies (3443ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (15466ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (568ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (413ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Script is not up to date after domain reload: guid(a9a9259f83373454d8904146e80f6c27) path("Assets/Script/Player.cs") state(2)
+Refreshing native plugins compatible for Editor in 4.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3552.
+Memory consumption went from 113.6 MB to 113.5 MB.
+Total: 6.568800 ms (FindLiveObjects: 0.459300 ms CreateObjectMapping: 0.174600 ms MarkObjects: 5.795400 ms  DeleteObjects: 0.137000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.720 seconds
+Refreshing native plugins compatible for Editor in 4.42 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.329 seconds
+Domain Reload Profiling: 2046ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (346ms)
+		LoadAssemblies (451ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1330ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (631ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (483ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3556.
+Memory consumption went from 113.8 MB to 113.8 MB.
+Total: 5.179600 ms (FindLiveObjects: 0.495300 ms CreateObjectMapping: 0.177900 ms MarkObjects: 4.419900 ms  DeleteObjects: 0.084500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 216.991695 seconds.
+  path: Assets/Script/Player.cs
+  artifactKey: Guid(a9a9259f83373454d8904146e80f6c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Player.cs using Guid(a9a9259f83373454d8904146e80f6c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7b2d26a9c4685ec1c666a18e5a8c1d') in 0.007656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.667967 seconds.
+  path: Assets/Script/SpaceshipMovement.cs
+  artifactKey: Guid(e4ab420c436838b4f85f7096ad4ddeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SpaceshipMovement.cs using Guid(e4ab420c436838b4f85f7096ad4ddeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313dfd49c4cfa98a726f01f5c03be74a') in 0.001804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.665 seconds
+Refreshing native plugins compatible for Editor in 4.43 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.386 seconds
+Domain Reload Profiling: 2047ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (294ms)
+		LoadAssemblies (389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1387ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (626ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (482ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.5 KB). Loaded Objects now: 3557.
+Memory consumption went from 113.5 MB to 113.5 MB.
+Total: 4.391000 ms (FindLiveObjects: 0.379300 ms CreateObjectMapping: 0.150200 ms MarkObjects: 3.772700 ms  DeleteObjects: 0.086300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 71.503967 seconds.
+  path: Assets/Script/SpaceshipMovement.cs
+  artifactKey: Guid(e4ab420c436838b4f85f7096ad4ddeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SpaceshipMovement.cs using Guid(e4ab420c436838b4f85f7096ad4ddeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c3246485209b5f8ad4b41b725f9d61') in 0.003926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.641 seconds
+Refreshing native plugins compatible for Editor in 3.45 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.247 seconds
+Domain Reload Profiling: 1885ms
+	BeginReloadAssembly (226ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (300ms)
+		LoadAssemblies (392ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1247ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (551ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (411ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3561.
+Memory consumption went from 113.6 MB to 113.5 MB.
+Total: 3.874200 ms (FindLiveObjects: 0.329800 ms CreateObjectMapping: 0.115300 ms MarkObjects: 3.330700 ms  DeleteObjects: 0.096300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8.155385 seconds.
+  path: Assets/Script/SpaceshipMovement.cs
+  artifactKey: Guid(e4ab420c436838b4f85f7096ad4ddeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SpaceshipMovement.cs using Guid(e4ab420c436838b4f85f7096ad4ddeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637459b3dd9eba94e170d2a4467e39ee') in 0.002625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.643089 seconds.
+  path: Assets/Script/SpaceshipMovement.cs
+  artifactKey: Guid(e4ab420c436838b4f85f7096ad4ddeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SpaceshipMovement.cs using Guid(e4ab420c436838b4f85f7096ad4ddeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b296a3d00698a6c6785eb7c1df4e7577') in 0.001082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.682 seconds
+Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.266 seconds
+Domain Reload Profiling: 1945ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (343ms)
+		LoadAssemblies (394ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (73ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (47ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1267ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (571ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (431ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3564.
+Memory consumption went from 113.6 MB to 113.5 MB.
+Total: 4.545300 ms (FindLiveObjects: 0.391100 ms CreateObjectMapping: 0.148800 ms MarkObjects: 3.917200 ms  DeleteObjects: 0.085600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.599 seconds
+Refreshing native plugins compatible for Editor in 3.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.522 seconds
+Domain Reload Profiling: 2120ms
+	BeginReloadAssembly (207ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (287ms)
+		LoadAssemblies (386ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1523ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (656ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (458ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3567.
+Memory consumption went from 113.8 MB to 113.8 MB.
+Total: 4.141700 ms (FindLiveObjects: 0.394800 ms CreateObjectMapping: 0.131900 ms MarkObjects: 3.524700 ms  DeleteObjects: 0.088200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 45.729087 seconds.
+  path: Assets/Script/SpaceshipMovement.cs
+  artifactKey: Guid(e4ab420c436838b4f85f7096ad4ddeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SpaceshipMovement.cs using Guid(e4ab420c436838b4f85f7096ad4ddeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8df268f64f704411f2b2c19c7deadea') in 0.004198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.670 seconds
+Refreshing native plugins compatible for Editor in 5.33 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.346 seconds
+Domain Reload Profiling: 2014ms
+	BeginReloadAssembly (238ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (312ms)
+		LoadAssemblies (402ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1347ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (565ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (429ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 5.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3570.
+Memory consumption went from 113.6 MB to 113.5 MB.
+Total: 5.434700 ms (FindLiveObjects: 0.373700 ms CreateObjectMapping: 0.145800 ms MarkObjects: 4.805900 ms  DeleteObjects: 0.107200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.632 seconds
+Refreshing native plugins compatible for Editor in 3.51 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.748 seconds
+Domain Reload Profiling: 2379ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (292ms)
+		LoadAssemblies (401ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1750ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (853ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (644ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 12.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3573.
+Memory consumption went from 113.8 MB to 113.8 MB.
+Total: 7.772300 ms (FindLiveObjects: 0.669500 ms CreateObjectMapping: 0.466300 ms MarkObjects: 6.471100 ms  DeleteObjects: 0.162900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.713 seconds
+Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.842 seconds
+Domain Reload Profiling: 2554ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (343ms)
+		LoadAssemblies (453ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1844ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (823ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (620ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 5.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3576.
+Memory consumption went from 113.8 MB to 113.8 MB.
+Total: 6.178500 ms (FindLiveObjects: 0.765200 ms CreateObjectMapping: 0.211700 ms MarkObjects: 5.100900 ms  DeleteObjects: 0.098800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1389.009174 seconds.
+  path: Assets/Free Galaxy Background/Galaxy 01.png
+  artifactKey: Guid(e35de283f6d110b4bb164d04f6547746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Galaxy Background/Galaxy 01.png using Guid(e35de283f6d110b4bb164d04f6547746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cbff7976709c6c4d82397f39934b8e') in 0.269979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Free Galaxy Background/Galaxy 10.png
+  artifactKey: Guid(1f2dbfef7aaa9d94f88dfecc65df6f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Galaxy Background/Galaxy 10.png using Guid(1f2dbfef7aaa9d94f88dfecc65df6f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc88a3690be1b51056855047e9e141d7') in 0.045457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Free Galaxy Background/Galaxy 05.png
+  artifactKey: Guid(a351a0b27e67d654a83bc3d461c3d087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Galaxy Background/Galaxy 05.png using Guid(a351a0b27e67d654a83bc3d461c3d087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa4d291742cb5ab9e0b88d43bd22452') in 0.046370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free Galaxy Background/Galaxy 03.png
+  artifactKey: Guid(54d6307a2f2e6c04a946bd016fabc35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Galaxy Background/Galaxy 03.png using Guid(54d6307a2f2e6c04a946bd016fabc35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee562e60a773c5d5a53f5e3d0882286c') in 0.035911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Free Galaxy Background/Galaxy 08.png
+  artifactKey: Guid(2e71981b563024b4dbd5b105e53b2126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Galaxy Background/Galaxy 08.png using Guid(2e71981b563024b4dbd5b105e53b2126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f2968d0c8e643c172be1672dc0030f') in 0.036437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 469.641503 seconds.
+  path: Assets/kenney_space-kit/Preview.png
+  artifactKey: Guid(f96389c5738b1bc478233664d2ccea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Preview.png using Guid(f96389c5738b1bc478233664d2ccea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f45cacf2ed2bada42dfa3f1e7ad977b') in 0.065962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.912619 seconds.
+  path: Assets/kenney_space-kit/Models
+  artifactKey: Guid(0fd8d406b6a62e347ae474c3bf27db18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models using Guid(0fd8d406b6a62e347ae474c3bf27db18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5617a65b97136d38a82a4266264b588') in 0.001461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.208981 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format
+  artifactKey: Guid(4ee6610a890e3274da2c70c317b2a110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format using Guid(4ee6610a890e3274da2c70c317b2a110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db9a13ed4e80f451ba9480d58415e2d') in 0.000950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100486 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/alien.dae
+  artifactKey: Guid(9054edfb90fc377408d25883d8d9ca0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/alien.dae using Guid(9054edfb90fc377408d25883d8d9ca0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb4e8f416f0b17ded30c23ba581a46a') in 0.313842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/corridor_cornerRound.dae
+  artifactKey: Guid(a969d34b8baa77946b3d2d8656a3ee26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/corridor_cornerRound.dae using Guid(a969d34b8baa77946b3d2d8656a3ee26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da4b1434b617d304894aaa469e73f44') in 0.067171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/corridor_wall.dae
+  artifactKey: Guid(b461729202fa48a43987864df59e6a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/corridor_wall.dae using Guid(b461729202fa48a43987864df59e6a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7e842478df15ebd06a6e3211005b37') in 0.057150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/corridor.dae
+  artifactKey: Guid(7343f5adf6c4586448a93f994bb7544c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/corridor.dae using Guid(7343f5adf6c4586448a93f994bb7544c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a67a061cd53a732e16691f60c0102d') in 0.065784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/craft_miner.dae
+  artifactKey: Guid(3deeed75e8bb4af47a8af5837c38e29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/craft_miner.dae using Guid(3deeed75e8bb4af47a8af5837c38e29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcb81851ced8f816224dc1b80aa29a1') in 0.063785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/bones.dae
+  artifactKey: Guid(0bea88bf759e4ef419c839807db113aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/bones.dae using Guid(0bea88bf759e4ef419c839807db113aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836689e78402ba56cf9b164f4d570b34') in 0.036918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/corridor_cornerRoundWindow.dae
+  artifactKey: Guid(250c892dc40b0234bb3a473b0a493ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/corridor_cornerRoundWindow.dae using Guid(250c892dc40b0234bb3a473b0a493ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0eea694c34bf4dbd1a356813a04a55') in 0.090820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/corridor_detailed.dae
+  artifactKey: Guid(d24258d3a17d2784ca81681717c8e2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/corridor_detailed.dae using Guid(d24258d3a17d2784ca81681717c8e2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b64598fac7c03caa854f705d8fe73b') in 0.161286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/craft_racer.dae
+  artifactKey: Guid(8399d3969eb406e4cb5cc94c04aa0a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/craft_racer.dae using Guid(8399d3969eb406e4cb5cc94c04aa0a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd007284592e150dba28a959660a0c5') in 0.097229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/barrels_rail.dae
+  artifactKey: Guid(1a0b19f6e86ab6043a368c8d2cde76db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/barrels_rail.dae using Guid(1a0b19f6e86ab6043a368c8d2cde76db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82398e82b9d506259cd0eeba2049ca2') in 0.119710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/corridor_split.dae
+  artifactKey: Guid(ef628e30cb77b834fb8fc8650daaf740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/corridor_split.dae using Guid(ef628e30cb77b834fb8fc8650daaf740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185d412064d992749137356c69d7fd9d') in 0.065037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/corridor_roof.dae
+  artifactKey: Guid(d1c834ff1e45566419c4803be93ca9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/corridor_roof.dae using Guid(d1c834ff1e45566419c4803be93ca9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cef17755f224215a9b6e7230f7cdf9') in 0.053720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/craft_cargoB.dae
+  artifactKey: Guid(63a35c9c6dd83e445a151116a3f39731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/craft_cargoB.dae using Guid(63a35c9c6dd83e445a151116a3f39731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c327a4a72b87687bd7014d4599d7db6') in 0.073228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/corridor_wallCorner.dae
+  artifactKey: Guid(f1c4a2a7f69270a4288c1c17c962d4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/corridor_wallCorner.dae using Guid(f1c4a2a7f69270a4288c1c17c962d4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82646c05bb6d6d769a51e01326b3e8c7') in 0.066416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/craft_speederA.dae
+  artifactKey: Guid(2af4ab6692ab7d341a88c3263bbb2721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/craft_speederA.dae using Guid(2af4ab6692ab7d341a88c3263bbb2721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85c2b9b38b78274ff562b5cc5c49573') in 0.067031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.409496 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/craft_speederB.dae
+  artifactKey: Guid(0a50ac2728f4bd6468e99d9ae5fffe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/craft_speederB.dae using Guid(0a50ac2728f4bd6468e99d9ae5fffe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187c261b68ddf0e220a58112bb138434') in 0.082434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/desk_computer.dae
+  artifactKey: Guid(390d59ea5a763bf4e94b9e7e5f1605a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/desk_computer.dae using Guid(390d59ea5a763bf4e94b9e7e5f1605a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a09ea651303b0694e6bca7e1138212') in 0.056363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/desk_chairStool.dae
+  artifactKey: Guid(613539ad736bebc4b84bb43b407af081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/desk_chairStool.dae using Guid(613539ad736bebc4b84bb43b407af081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3afe3e1b8ecb8ee04573d97f1ec64b') in 0.050654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/crater.dae
+  artifactKey: Guid(82ebe27ca25b73747b30d3c95b8bc9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/crater.dae using Guid(82ebe27ca25b73747b30d3c95b8bc9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aafe9a26890beeb83f784e899e1511a') in 0.056771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/craterLarge.dae
+  artifactKey: Guid(2037b89a208ce4b4aac5bca295f4e654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/craterLarge.dae using Guid(2037b89a208ce4b4aac5bca295f4e654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66acd8bad76a70f97564ac49d813770e') in 0.045063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.260452 seconds.
+  path: Assets/kenney_space-kit/Models/FBX format/alien.fbx
+  artifactKey: Guid(03d41f93f60b7244bbbe2b1f330693c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/FBX format/alien.fbx using Guid(03d41f93f60b7244bbbe2b1f330693c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098e77cb72da6ea5a4452e834acc6e8d') in 0.155901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/kenney_space-kit/Models/FBX format/corridor_open.fbx
+  artifactKey: Guid(29fdee15f19ec5d4fba736b10b187f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/FBX format/corridor_open.fbx using Guid(29fdee15f19ec5d4fba736b10b187f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1907e0f43df15e1eb9d2c7379efbf20e') in 0.047837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/kenney_space-kit/Models/FBX format/corridor_wall.fbx
+  artifactKey: Guid(e7f71ec79f4d9c745ae862547a3ada7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/FBX format/corridor_wall.fbx using Guid(e7f71ec79f4d9c745ae862547a3ada7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e748764f1678af6630684e9a0858cac4') in 0.064886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/kenney_space-kit/Models/FBX format/craft_cargoA.fbx
+  artifactKey: Guid(d525083b0c1cb4542ac64dc0a90ad194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/FBX format/craft_cargoA.fbx using Guid(d525083b0c1cb4542ac64dc0a90ad194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adb5f74f49528b33952e3c42c04258f') in 0.062308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/kenney_space-kit/Models/FBX format/corridor_window.fbx
+  artifactKey: Guid(209b9a36ab70b114faddfca21ac1a3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/FBX format/corridor_window.fbx using Guid(209b9a36ab70b114faddfca21ac1a3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a54c1fe029c9827bd2b389a903076b2') in 0.070416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/kenney_space-kit/Models/FBX format/craft_racer.fbx
+  artifactKey: Guid(fa63a2db6cfa53e44a56117e2b00405e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/FBX format/craft_racer.fbx using Guid(fa63a2db6cfa53e44a56117e2b00405e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f00bbb0911ada3931efd46888deb641') in 0.069789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/kenney_space-kit/Models/FBX format/corridor_wallCorner.fbx
+  artifactKey: Guid(df6334ebe30731b46825d79c78b6aa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/FBX format/corridor_wallCorner.fbx using Guid(df6334ebe30731b46825d79c78b6aa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae187936cb8a12bee894a7e9c0846c1') in 0.062583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/kenney_space-kit/Models/FBX format/corridor_end.fbx
+  artifactKey: Guid(269fed200e1d38c4c8e8e3dc46b41cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/FBX format/corridor_end.fbx using Guid(269fed200e1d38c4c8e8e3dc46b41cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d37d384bd2168db1f811cc14a0125d2') in 0.062548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/kenney_space-kit/Models/FBX format/chimney_detailed.fbx
+  artifactKey: Guid(64b24587706d4fa47842dc504fb3759a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/FBX format/chimney_detailed.fbx using Guid(64b24587706d4fa47842dc504fb3759a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a1dd273c2c2bb2c08611fea60e309a') in 0.048346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/kenney_space-kit/Models/FBX format/corridor.fbx
+  artifactKey: Guid(7ef9d8ce170c3d64dbeb0465479e01a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/FBX format/corridor.fbx using Guid(7ef9d8ce170c3d64dbeb0465479e01a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9de81dd25e38bae62c751baa1210f9b') in 0.071791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/kenney_space-kit/Models/FBX format/corridor_cornerRound.fbx
+  artifactKey: Guid(3bf9b5ae5ceb6a64f946a9e01f077b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/FBX format/corridor_cornerRound.fbx using Guid(3bf9b5ae5ceb6a64f946a9e01f077b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7acf398caa73a7af8f89401cddfc237') in 0.067721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/kenney_space-kit/Models/FBX format/corridor_detailed.fbx
+  artifactKey: Guid(d0f6a5895f2755c4c900f26f9fdc4c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/FBX format/corridor_detailed.fbx using Guid(d0f6a5895f2755c4c900f26f9fdc4c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24b87106799702c52cee8d3165a399a') in 0.063931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/kenney_space-kit/Models/FBX format/corridor_corner.fbx
+  artifactKey: Guid(cecd8fd99812d124495e284beb0a403b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/FBX format/corridor_corner.fbx using Guid(cecd8fd99812d124495e284beb0a403b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7014fa1d5f7afb81457f4f2af4d1f53') in 0.056625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/kenney_space-kit/Models/FBX format/barrels_rail.fbx
+  artifactKey: Guid(974e8febc57b39f4bb4723fc35a78c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/FBX format/barrels_rail.fbx using Guid(974e8febc57b39f4bb4723fc35a78c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e51f2bac31e6c75eac52b6a465ecb30') in 0.126593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 2.540609 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/alien.obj
+  artifactKey: Guid(8f7ff6b16229b864e8cce0c1f11fa28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/alien.obj using Guid(8f7ff6b16229b864e8cce0c1f11fa28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b3e255e2c64da9b62716d3843d2d7c') in 0.213994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/corridor_cross.obj
+  artifactKey: Guid(c99cfe7dc6d84aa4fa1dda9a8c571d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/corridor_cross.obj using Guid(c99cfe7dc6d84aa4fa1dda9a8c571d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b34003d3d272202b20ff7848befbc7b') in 0.103218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/bones.obj
+  artifactKey: Guid(d5f77f0acaf972348a4b8dd1355c506b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/bones.obj using Guid(d5f77f0acaf972348a4b8dd1355c506b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5bc6403270ecdba68196cd30a5db35') in 0.070686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/chimney_detailed.obj
+  artifactKey: Guid(3087315e8806e2a4c966b01e4bf4d8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/chimney_detailed.obj using Guid(3087315e8806e2a4c966b01e4bf4d8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa10a3078168f4ef1c70a6a70f95571') in 0.061393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/chimney.obj
+  artifactKey: Guid(62fd5eac3aa054840b9aba57bbf8eef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/chimney.obj using Guid(62fd5eac3aa054840b9aba57bbf8eef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6c31539e3447048147542423a8e207') in 0.058914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/astronautB.obj
+  artifactKey: Guid(b067e68f32923984295deca9c1141e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/astronautB.obj using Guid(b067e68f32923984295deca9c1141e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149a2c50acb55cb8ab0a733ff4718efd') in 0.157545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/corridor_cornerRoundWindow.obj
+  artifactKey: Guid(c7a3d050597414342a988de1ebdbb685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/corridor_cornerRoundWindow.obj using Guid(c7a3d050597414342a988de1ebdbb685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e8efafa0fb4e5723d7a1762532b3a5') in 0.068727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.927259 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/corridor_detailed.obj
+  artifactKey: Guid(6c54b6a5aeb4aff49bf76b1714ef5238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/corridor_detailed.obj using Guid(6c54b6a5aeb4aff49bf76b1714ef5238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80516308b757ba2ff54450db9609673') in 0.082670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/corridor_split.obj
+  artifactKey: Guid(b0a3b80a1591c0b42b67c8df6a256dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/corridor_split.obj using Guid(b0a3b80a1591c0b42b67c8df6a256dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a512ca4538aa020d9e3c87997102fd0d') in 0.075232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1.134308 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/corridor_wall.obj
+  artifactKey: Guid(6a7a29764d7e56e4a8c2d316862f6640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/corridor_wall.obj using Guid(6a7a29764d7e56e4a8c2d316862f6640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a729a31258808191deaa1b0bdd491c1f') in 0.245602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/craft_miner.obj
+  artifactKey: Guid(8311e4cc7e6eabb45a1b845dd303a881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/craft_miner.obj using Guid(8311e4cc7e6eabb45a1b845dd303a881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d74ca0c1524e8a15b3040b2f3ce9c8') in 0.125311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/craft_racer.obj
+  artifactKey: Guid(aef7218b1a4b3524abce0a02a2615aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/craft_racer.obj using Guid(aef7218b1a4b3524abce0a02a2615aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a839514ee10431ed744e7f65c457bbb4') in 0.088117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/corridor_windowClosed.obj
+  artifactKey: Guid(e526ed67205139849b00f8118d047668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/corridor_windowClosed.obj using Guid(e526ed67205139849b00f8118d047668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6939a228e323fee21d622ae3473e7fad') in 0.085358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.840198 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/craft_speederA.obj
+  artifactKey: Guid(f2211fee2f67d3548b77147782bfd014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/craft_speederA.obj using Guid(f2211fee2f67d3548b77147782bfd014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c23584be77aa6da07be068cbe29f0c') in 0.137446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/craterLarge.obj
+  artifactKey: Guid(40eecf6282a8a78439766c9f4fc5fcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/craterLarge.obj using Guid(40eecf6282a8a78439766c9f4fc5fcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3897ed49c968cc2f76864916371739') in 0.074414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/craft_speederC.obj
+  artifactKey: Guid(8e0386c10f6fa384d9cef08abba6cae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/craft_speederC.obj using Guid(8e0386c10f6fa384d9cef08abba6cae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7acbe4a584ee81fd701f498238c7387') in 0.094648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/craft_speederD.obj
+  artifactKey: Guid(20da6618144cdb4439268004c8096348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/craft_speederD.obj using Guid(20da6618144cdb4439268004c8096348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d517338775949bcd3cfebd30cf2574') in 0.084616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 9.757430 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/desk_computer.obj
+  artifactKey: Guid(40aabbc6a8058a24eb4f2604bfc6746a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/desk_computer.obj using Guid(40aabbc6a8058a24eb4f2604bfc6746a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad129488060358e2b9b557ff13b2de3') in 0.090828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/gate_simple.obj
+  artifactKey: Guid(a662bdda60b1816488e3884d1dd8fe58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/gate_simple.obj using Guid(a662bdda60b1816488e3884d1dd8fe58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768930a32a56fdeceb8f5b922f1fc018') in 0.069884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/desk_computerScreen.obj
+  artifactKey: Guid(1c7d22d408e90e345a938136d36bdae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/desk_computerScreen.obj using Guid(1c7d22d408e90e345a938136d36bdae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58da1b3042f254f9bca103075acc52af') in 0.063660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 8.662415 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/hangar_largeA.obj
+  artifactKey: Guid(55c792d67702e274a834afcc14561d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/hangar_largeA.obj using Guid(55c792d67702e274a834afcc14561d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9887795060c50baee14b92a73ff418') in 0.163835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/hangar_roundA.obj
+  artifactKey: Guid(d606b35e99833be4e9af9b74fcc1c2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/hangar_roundA.obj using Guid(d606b35e99833be4e9af9b74fcc1c2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336907856ae7359de2d0658553778c50') in 0.136616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.787646 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/hangar_roundGlass.obj
+  artifactKey: Guid(a49a2076d70d8e943ba03ec6fd994670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/hangar_roundGlass.obj using Guid(a49a2076d70d8e943ba03ec6fd994670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c919c589ff40a603e6ef0ef46b2c476') in 0.143065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/hangar_smallB.obj
+  artifactKey: Guid(ff1c86beb534c8d45a50d643bcb73b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/hangar_smallB.obj using Guid(ff1c86beb534c8d45a50d643bcb73b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddf549b2f84c77995bf62c8ba4df1bd') in 0.146348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/machine_barrelLarge.obj
+  artifactKey: Guid(9becce52c4b21e74abf6cd626b98a7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/machine_barrelLarge.obj using Guid(9becce52c4b21e74abf6cd626b98a7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e910a8a6bb6684e0f5fe3db9dddac1df') in 0.085301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/machine_wirelessCable.obj
+  artifactKey: Guid(4cd04440c3257bd4da8c34abe42bb37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/machine_wirelessCable.obj using Guid(4cd04440c3257bd4da8c34abe42bb37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafaafb87ba59d454528f50301a989c6') in 0.085155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/machine_generator.obj
+  artifactKey: Guid(3ecd65f8e475b5a49a13acbe6d787c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/machine_generator.obj using Guid(3ecd65f8e475b5a49a13acbe6d787c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fccfeca8f96f02310f323e4bcd58557') in 0.098695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.212389 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/meteor.obj
+  artifactKey: Guid(534177dd7a4a808448c8a2301a2d87e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/meteor.obj using Guid(534177dd7a4a808448c8a2301a2d87e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe0f70655a33e9ebb7252fc3e53d970') in 0.058980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/monorail_trackCornerSmall.obj
+  artifactKey: Guid(d8d0be7bb8e64014aa69743b4976f821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/monorail_trackCornerSmall.obj using Guid(d8d0be7bb8e64014aa69743b4976f821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea434f0162f559072a82f498df17264') in 0.066505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.480185 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/monorail_trackSlope.obj
+  artifactKey: Guid(99f443112e87a1f41a78deb6312bbd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/monorail_trackSlope.obj using Guid(99f443112e87a1f41a78deb6312bbd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc5e26c5b27b9fa059297a22e188eeb') in 0.073287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/monorail_trackSupport.obj
+  artifactKey: Guid(4bcf862e6356065439e4392b118bff5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/monorail_trackSupport.obj using Guid(4bcf862e6356065439e4392b118bff5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39c3cf76119a905481a9877aaf79e03') in 0.066408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.747866 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/monorail_trainBox.obj
+  artifactKey: Guid(22f6cb5adeeec0947bd72733d5761992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/monorail_trainBox.obj using Guid(22f6cb5adeeec0947bd72733d5761992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4b61784f3bd9ddae2d7e392a370777') in 0.082023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/monorail_trainFlat.obj
+  artifactKey: Guid(065f59a5f02224c4882d0ad7316f0596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/monorail_trainFlat.obj using Guid(065f59a5f02224c4882d0ad7316f0596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ea09c821a147ac3bbe25c06f3bbcb9') in 0.069833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/monorail_trainEnd.obj
+  artifactKey: Guid(bf839d3716d49f04b90fcd64c3ded4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/monorail_trainEnd.obj using Guid(bf839d3716d49f04b90fcd64c3ded4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99056cd53b3a0c4c8a6efcc2dc63c7a0') in 0.079941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.525274 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/monorail_trainPassenger.obj
+  artifactKey: Guid(f858fd47f2fcb204488508c543f8803c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/monorail_trainPassenger.obj using Guid(f858fd47f2fcb204488508c543f8803c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e857bc135dba08d51913da3b53546d') in 0.171076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/pipe_cornerRoundLarge.obj
+  artifactKey: Guid(1264db170028b9d4a8de8d0b6469a5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/pipe_cornerRoundLarge.obj using Guid(1264db170028b9d4a8de8d0b6469a5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6099eb55aece01b84de357d59a2d85b6') in 0.073108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/pipe_end.obj
+  artifactKey: Guid(e4b6c69363fb4b74cb7594eff2d8249b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/pipe_end.obj using Guid(e4b6c69363fb4b74cb7594eff2d8249b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2da4e01e0ba595934b81c87da397a8') in 0.086348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/pipe_cornerRound.obj
+  artifactKey: Guid(1728fb72555920546a27f4de0c95ffe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/pipe_cornerRound.obj using Guid(1728fb72555920546a27f4de0c95ffe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48289754c2d984b77c07bfdbbc4b95cd') in 0.067364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.226675 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/pipe_rampLarge.obj
+  artifactKey: Guid(e1d3d9e6db6bed840a622bddd3ce8be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/pipe_rampLarge.obj using Guid(e1d3d9e6db6bed840a622bddd3ce8be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51de268a5da74283536a864c3d51e103') in 0.093657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/pipe_ring.obj
+  artifactKey: Guid(908d65788b8b3bc4480a96a4a5074e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/pipe_ring.obj using Guid(908d65788b8b3bc4480a96a4a5074e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2e210a173258b739319510bf8a1826') in 0.081246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/pipe_supportHigh.obj
+  artifactKey: Guid(081a1d57089f961409d72dbd4972fc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/pipe_supportHigh.obj using Guid(081a1d57089f961409d72dbd4972fc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f1600ea1efd067c1d7655e21e0c2b1') in 0.070607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/pipe_ringSupport.obj
+  artifactKey: Guid(c811d87af25e52844b251e6ac9775757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/pipe_ringSupport.obj using Guid(c811d87af25e52844b251e6ac9775757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bd53539cb70ee2a43c56b62de7e173') in 0.070926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/pipe_ringHighEnd.obj
+  artifactKey: Guid(387036d1799aa164c849ba8ced5ce68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/pipe_ringHighEnd.obj using Guid(387036d1799aa164c849ba8ced5ce68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bfc80381d897899882cc7aa0c95b4a') in 0.078615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.338563 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/pipe_supportLow.obj
+  artifactKey: Guid(b1daecb75a2391849a27a52dceec6792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/pipe_supportLow.obj using Guid(b1daecb75a2391849a27a52dceec6792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09396ae7a70156fad500fb6098b5985d') in 0.112495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/platform_smallDiagonal.obj
+  artifactKey: Guid(af4cf5b0e6cd5d64985cce87d80c32c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/platform_smallDiagonal.obj using Guid(af4cf5b0e6cd5d64985cce87d80c32c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70aeb1b970d3df8830b3f1ce5208afaf') in 0.073604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/platform_small.obj
+  artifactKey: Guid(749248ddafdf73c49afa1a4926e729d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/platform_small.obj using Guid(749248ddafdf73c49afa1a4926e729d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d734d8c3ab8c81cdd6464ace3a8625') in 0.075878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/platform_end.obj
+  artifactKey: Guid(322227091cb6ace40945d90cf3111ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/platform_end.obj using Guid(322227091cb6ace40945d90cf3111ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6d06a7d25daeec1af2d19c6bf009ee') in 0.070335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/platform_side.obj
+  artifactKey: Guid(c6e9479c392397449814d76da55b6646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/platform_side.obj using Guid(c6e9479c392397449814d76da55b6646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a89dff77a9140227302e4cc68379e30') in 0.080074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/platform_cornerRound.obj
+  artifactKey: Guid(9231dc3327482f042a558cdeda35fb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/platform_cornerRound.obj using Guid(9231dc3327482f042a558cdeda35fb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1658e6f15f3accf9b1eefcb87b681427') in 0.065993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.084918 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/platform_straight.obj
+  artifactKey: Guid(dfb30615e6a73544492a17808e30c976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/platform_straight.obj using Guid(dfb30615e6a73544492a17808e30c976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa3204119095918f8e7399f7d93f2fd') in 0.068672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/rail_end.obj
+  artifactKey: Guid(585fd75801e09c84580995d550be788a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/rail_end.obj using Guid(585fd75801e09c84580995d550be788a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982c3f5bd470d53f5c03a5435b39df30') in 0.053241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/rock_crystals.obj
+  artifactKey: Guid(caf2a829edf31fa4f92f08e4437c74b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/rock_crystals.obj using Guid(caf2a829edf31fa4f92f08e4437c74b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ae8bd92343b2165665a6b20b58d96c') in 0.065094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/rock_crystalsLargeA.obj
+  artifactKey: Guid(69308fbc93ef9904191526ecff16860f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/rock_crystalsLargeA.obj using Guid(69308fbc93ef9904191526ecff16860f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e8ddd47b56be28a954cfdb7b58b159') in 0.068537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/rocket_finsA.obj
+  artifactKey: Guid(82a681520196cba4cb6400895967fbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/rocket_finsA.obj using Guid(82a681520196cba4cb6400895967fbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33b164c4fe56152dcaf944b04a1760f') in 0.064493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/rocket_baseB.obj
+  artifactKey: Guid(5bbfc7a4d8c577e4792d3c23f2aa658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/rocket_baseB.obj using Guid(5bbfc7a4d8c577e4792d3c23f2aa658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ba08d14a6a78a8f50cedfc5425a00d') in 0.065596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/rock_largeA.obj
+  artifactKey: Guid(1cad317ed11c396478c92c2774bc037d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/rock_largeA.obj using Guid(1cad317ed11c396478c92c2774bc037d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f79885f830f1baa0eb5737ad825bce') in 0.051157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.329876 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/rocket_finsB.obj
+  artifactKey: Guid(9f192408f2b593540b10b4c2c12bf4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/rocket_finsB.obj using Guid(9f192408f2b593540b10b4c2c12bf4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f85d507ae402a11d49e007b945adb51') in 0.105672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/rocket_topA.obj
+  artifactKey: Guid(8cf321910a2533047afa4075756b0394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/rocket_topA.obj using Guid(8cf321910a2533047afa4075756b0394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd27e9aa3667256695c6eebbc63890a8') in 0.077709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/rocks_smallA.obj
+  artifactKey: Guid(0375b1c1b156b5348b64ff76aa803400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/rocks_smallA.obj using Guid(0375b1c1b156b5348b64ff76aa803400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed65e598f6d1edf84b99c295da77a771') in 0.047279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/rover.obj
+  artifactKey: Guid(ab967cb34628b4b43805451b8e7aa21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/rover.obj using Guid(ab967cb34628b4b43805451b8e7aa21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a6670bd3676bbbe8c22e6a3be1b9a4') in 0.070877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/rocket_sidesB.obj
+  artifactKey: Guid(86e6c9b7dd0161f45b03266c22918bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/rocket_sidesB.obj using Guid(86e6c9b7dd0161f45b03266c22918bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6fd1491443a0a1194779e105ec739c') in 0.059112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/rocket_sidesA.obj
+  artifactKey: Guid(867340114f89584468885ccf7393fc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/rocket_sidesA.obj using Guid(867340114f89584468885ccf7393fc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2026cc7c2dbad76dfe08e1703bb0257d') in 0.091928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/rocket_topB.obj
+  artifactKey: Guid(ad0f04a96cf7adb43a0277cc4bf42b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/rocket_topB.obj using Guid(ad0f04a96cf7adb43a0277cc4bf42b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cbf9dcf8249952e73c4b2a4d71acf9') in 0.063816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.274273 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/stairs.obj
+  artifactKey: Guid(bb1f669bd24d13c468a1ddfb9e46bbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/stairs.obj using Guid(bb1f669bd24d13c468a1ddfb9e46bbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343ebf3e032705dc01b2348689ccfd28') in 0.163686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/terrain_ramp.obj
+  artifactKey: Guid(de178a398914f8e4da47359ae6212dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/terrain_ramp.obj using Guid(de178a398914f8e4da47359ae6212dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777861b462ac8e681ca040821be7088d') in 0.105448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/terrain_rampLarge.obj
+  artifactKey: Guid(e4b2b64dd476ea544b3cd5c406ede7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/terrain_rampLarge.obj using Guid(e4b2b64dd476ea544b3cd5c406ede7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48c8da95149f97dad98910eccd5438d') in 0.078195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/supports_high.obj
+  artifactKey: Guid(cea07f1e242396b448fef01d0e1e8fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/supports_high.obj using Guid(cea07f1e242396b448fef01d0e1e8fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393653f7ddb9336bacba14640351111d') in 0.109958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/terrain_roadCorner.obj
+  artifactKey: Guid(1208c0640461a714f8fac58339b3a097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/terrain_roadCorner.obj using Guid(1208c0640461a714f8fac58339b3a097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6206be7998756e81ae4f60fff902cc35') in 0.068514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/structure_diagonal.obj
+  artifactKey: Guid(b36a6d489386fad41990e952c195974f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/structure_diagonal.obj using Guid(b36a6d489386fad41990e952c195974f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f1b15d6012621b1200bb70b6689469') in 0.095434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/turret_single.obj
+  artifactKey: Guid(5a4086d4c2fdefb4aba710473e46add4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/turret_single.obj using Guid(5a4086d4c2fdefb4aba710473e46add4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1dc0aa65b4e194bca3abec53753f72') in 0.118861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/terrain_sideCliff.obj
+  artifactKey: Guid(91f906442308e9342b5e4bf625dddc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/terrain_sideCliff.obj using Guid(91f906442308e9342b5e4bf625dddc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab25509236b97e3d0a5d54e6e752aaa') in 0.070400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/terrain_sideCorner.obj
+  artifactKey: Guid(d31bf308c3ea6974fa5247d7144df76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/terrain_sideCorner.obj using Guid(d31bf308c3ea6974fa5247d7144df76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6bcd8010c2eb76b34b2b594e1149d1') in 0.057701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/terrain_roadCross.obj
+  artifactKey: Guid(c594112a7463d4e45881f5c54259586f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/terrain_roadCross.obj using Guid(c594112a7463d4e45881f5c54259586f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126fd056a19f16980834c949a087cff3') in 0.058723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/terrain_roadStraight.obj
+  artifactKey: Guid(02bac1eb4a054d745ac000eb2d503305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/terrain_roadStraight.obj using Guid(02bac1eb4a054d745ac000eb2d503305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c121e214cf4765349e4ea1b721b816e0') in 0.065008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/terrain_roadEnd.obj
+  artifactKey: Guid(293f065610ca7834ab78376c7dfa4440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/terrain_roadEnd.obj using Guid(293f065610ca7834ab78376c7dfa4440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88f5921b1a9e4ca6936ead8db54fa52') in 0.052011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format/weapon_gun.obj
+  artifactKey: Guid(8ef73c1559cd39745b985622994b11f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format/weapon_gun.obj using Guid(8ef73c1559cd39745b985622994b11f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a8661008a9a5fbbfebb96bd1ded0d7') in 0.075888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 299.528868 seconds.
+  path: Assets/kenney_space-kit/Models/OBJ format
+  artifactKey: Guid(aa0220481f817af468def75568b414c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/OBJ format using Guid(aa0220481f817af468def75568b414c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc9af4f6a236a83dc6ef96c52e1d8d1') in 0.001270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 51.814296 seconds.
+  path: Assets/kenney_space-kit/Models/FBX format/pipe_ringHigh.fbx
+  artifactKey: Guid(a1f34461318d6bc48abd8edcca97d280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/FBX format/pipe_ringHigh.fbx using Guid(a1f34461318d6bc48abd8edcca97d280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b3798949b136b5e3bae7b24c33f137') in 0.121994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/kenney_space-kit/Models/DAE format/satelliteDish.dae
+  artifactKey: Guid(9cb2d85e23e4f2b469d067e3449e26a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/DAE format/satelliteDish.dae using Guid(9cb2d85e23e4f2b469d067e3449e26a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2127dd258bfae1725ddf308347fa41') in 0.090145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
   Time since last request: 0.000050 seconds.
-  path: Assets/Sprites/Characters/Character 1.png
-  artifactKey: Guid(b27e9261c66330140a6fe82a57cc2a39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Sprites/Characters/Character 1.png using Guid(b27e9261c66330140a6fe82a57cc2a39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4435b6f546da038b722b95989dd2fb59') in 0.134411 seconds
+  path: Assets/kenney_space-kit/Models/FBX format/rocket_topB.fbx
+  artifactKey: Guid(7ae46f7cfc779d7478c5cbc73d148fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit/Models/FBX format/rocket_topB.fbx using Guid(7ae46f7cfc779d7478c5cbc73d148fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d512bb3a3a23157a802ee5d8af4026') in 0.068933 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 4829.332110 seconds.
-  path: Assets/Material/FloorDirt.mat
-  artifactKey: Guid(ba14f8819bc062f40b0845c69c15931a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/FloorDirt.mat using Guid(ba14f8819bc062f40b0845c69c15931a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72af505e27ec880364c1129e54a6afd') in 0.385165 seconds
+  Time since last request: 90.583152 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9326e97e2461385864aa44f9e28ada') in 0.001684 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.528756 seconds.
-  path: Assets/Material/FloorDirt.mat
-  artifactKey: Guid(ba14f8819bc062f40b0845c69c15931a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Material/FloorDirt.mat using Guid(ba14f8819bc062f40b0845c69c15931a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '73b02dac5eaa15f0318bc4db49f31325') in 0.043734 seconds
+  Time since last request: 486.031563 seconds.
+  path: Assets/kenney_space-kit
+  artifactKey: Guid(266fb94a705d7cd4e9708c37b0699675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_space-kit using Guid(266fb94a705d7cd4e9708c37b0699675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ad85a5f51fa0a787cdce8f5d6acd46') in 0.001086 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 280.836784 seconds.
+  path: Assets/Prefabs/craft_speederC.obj
+  artifactKey: Guid(e3e5326c1655bdd439b3bd173199caf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/craft_speederC.obj using Guid(e3e5326c1655bdd439b3bd173199caf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0e9818c1b86eb94b2331262d1b7621') in 0.117242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 173.687492 seconds.
+  path: Assets/Prefabs/craft_speederC.obj
+  artifactKey: Guid(941d3362841930641ae475e6e8cca3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/craft_speederC.obj using Guid(941d3362841930641ae475e6e8cca3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27f627352433eb9e61fe0d7ba510fb1') in 0.064908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.452 seconds
+Refreshing native plugins compatible for Editor in 10.93 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 20.503 seconds
+Domain Reload Profiling: 23953ms
+	BeginReloadAssembly (1342ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (51ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (627ms)
+	RebuildCommonClasses (143ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (130ms)
+	LoadAllAssembliesAndSetupDomain (1792ms)
+		LoadAssemblies (2218ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (48ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (20504ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (951ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (704ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 6.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3626.
+Memory consumption went from 121.0 MB to 121.0 MB.
+Total: 10.606500 ms (FindLiveObjects: 0.867600 ms CreateObjectMapping: 0.701800 ms MarkObjects: 8.913500 ms  DeleteObjects: 0.121200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.320 seconds
+Refreshing native plugins compatible for Editor in 9.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.623 seconds
+Domain Reload Profiling: 3939ms
+	BeginReloadAssembly (414ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (107ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (673ms)
+		LoadAssemblies (880ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2625ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1169ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (886ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 6.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (31.0 KB). Loaded Objects now: 3629.
+Memory consumption went from 121.3 MB to 121.2 MB.
+Total: 14.325800 ms (FindLiveObjects: 0.624100 ms CreateObjectMapping: 0.251100 ms MarkObjects: 13.282300 ms  DeleteObjects: 0.165000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.571 seconds
+Refreshing native plugins compatible for Editor in 3.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 13.037 seconds
+Domain Reload Profiling: 14614ms
+	BeginReloadAssembly (553ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (163ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (895ms)
+		LoadAssemblies (1096ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (77ms)
+			TypeCache.Refresh (41ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (13038ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (752ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (540ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 5.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3633.
+Memory consumption went from 121.3 MB to 121.3 MB.
+Total: 7.655400 ms (FindLiveObjects: 0.543500 ms CreateObjectMapping: 0.588800 ms MarkObjects: 6.385300 ms  DeleteObjects: 0.135000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.942 seconds
+Refreshing native plugins compatible for Editor in 3.56 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.679 seconds
+Domain Reload Profiling: 2616ms
+	BeginReloadAssembly (268ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (533ms)
+		LoadAssemblies (642ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1679ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (468ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (352ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3636.
+Memory consumption went from 121.3 MB to 121.3 MB.
+Total: 4.601200 ms (FindLiveObjects: 0.426700 ms CreateObjectMapping: 0.519900 ms MarkObjects: 3.583100 ms  DeleteObjects: 0.069800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.704 seconds
+Refreshing native plugins compatible for Editor in 5.44 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.125 seconds
+Domain Reload Profiling: 4829ms
+	BeginReloadAssembly (226ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (377ms)
+		LoadAssemblies (460ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (4127ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1614ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (218ms)
+			ProcessInitializeOnLoadAttributes (1266ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 15.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3639.
+Memory consumption went from 121.3 MB to 121.3 MB.
+Total: 9.907300 ms (FindLiveObjects: 0.671000 ms CreateObjectMapping: 0.261300 ms MarkObjects: 8.843700 ms  DeleteObjects: 0.127900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.206 seconds
+Refreshing native plugins compatible for Editor in 19.29 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.250 seconds
+Domain Reload Profiling: 4455ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (831ms)
+		LoadAssemblies (887ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (60ms)
+			TypeCache.Refresh (33ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (3251ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (975ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (732ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 6.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3642.
+Memory consumption went from 121.3 MB to 121.3 MB.
+Total: 7.747300 ms (FindLiveObjects: 0.483000 ms CreateObjectMapping: 0.214500 ms MarkObjects: 6.894500 ms  DeleteObjects: 0.152800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 122383.858836 seconds.
+  path: Assets/_Shared/Materials
+  artifactKey: Guid(203847c0992557844921181de2cd3a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Shared/Materials using Guid(203847c0992557844921181de2cd3a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96711ffc98caa09f222eea31c5764292') in 0.224636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.382 seconds
+Refreshing native plugins compatible for Editor in 2.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.814 seconds
+Domain Reload Profiling: 3195ms
+	BeginReloadAssembly (582ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (260ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (695ms)
+		LoadAssemblies (811ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1815ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (485ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3644.
+Memory consumption went from 121.0 MB to 121.0 MB.
+Total: 6.867900 ms (FindLiveObjects: 0.461000 ms CreateObjectMapping: 0.110400 ms MarkObjects: 5.805900 ms  DeleteObjects: 0.488000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1114.135067 seconds.
+  path: Assets/Script/SpaceshipMovement.cs
+  artifactKey: Guid(e4ab420c436838b4f85f7096ad4ddeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SpaceshipMovement.cs using Guid(e4ab420c436838b4f85f7096ad4ddeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e942b19b0a76df30a7d182121c15d95b') in 0.003587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
