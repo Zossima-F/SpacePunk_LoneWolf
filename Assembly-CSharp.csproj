@@ -41,6 +41,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\SpaceshipMovement.cs" />
+     <Compile Include="Assets\Script\turret_double.cs" />
+     <Compile Include="Assets\Script\LevelMovement.cs" />
+     <Compile Include="Assets\Script\ShootingPlayer.cs" />
      <None Include="Assets\kenney_space-kit\License.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
